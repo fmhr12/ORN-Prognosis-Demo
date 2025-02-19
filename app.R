@@ -99,7 +99,7 @@ ui <- fluidPage(
                 value = "60"),
       
       # Checkbox group for reference curves
-      checkboxGroupInput("showReference", "Show Reference (Average CIF) Options", 
+      checkboxGroupInput("showReference", "Show Reference (Average CIF) Options in PMCC", 
                          choices = list("Average Overall" = "overall", 
                                         "Average ORN Positive" = "pos", 
                                         "Average ORN Negative" = "neg"),
